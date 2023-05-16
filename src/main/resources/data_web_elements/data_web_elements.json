@@ -1,0 +1,28 @@
+{
+  "login_page": {
+    "user_login_field": "username",
+    "user_name_field": "password",
+    "submit_button": "Log In"
+  },
+  "main_page": {
+    "customer_tittle_element": "Analytics",
+    "appointment_link_wrapper": "//*[@id='sidebar-navigation']//*[contains(text(),'Appointments')]",
+    "schedule_item": "//*[contains(text(),'Scheduler')]",
+    "calendar_item": "//*[contains(text(),'Calendar')]"
+  },
+  "schedule_page": {
+    "schedule_item": "//*[contains(text(),'Scheduler')]",
+    "appointment_item": "//div[@role='table']//*[contains(text(),'%s')]"
+  },
+  "calendar_page": {
+    "day_tab": "Day",
+    "appointment_calendar": "//*[contains(text(),'%s')]"
+  },
+  "appointments": {
+    "search_appointment": "//*[@placeholder='Search for appointment or customer...']",
+    "new_appointment_button": "New Appointment",
+    "appointment_field": "//*[contains(text(),'Appointment title')]//ancestor::*//div[@class='relative']//input",
+    "appointment_date_field": "//div[@class='react-datepicker-wrapper']//input",
+    "create_appointment_button": "Create"
+  }
+}
