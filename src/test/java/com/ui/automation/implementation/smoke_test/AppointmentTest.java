@@ -40,7 +40,7 @@ public class AppointmentTest extends BaseTest {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(new Date());
         calendar.add(Calendar.HOUR, 6);
-        String datePattern = MONTH_FULL + " " + DAY + ", " + YEAR + ", " + HOUR_24_FORMAT + ":" + MINUTE + " " + AM_PM_MARKER;
+        String datePattern = MONTH_FULL + " " + DAY + ", " + YEAR + ", " + HOUR_12_FORMAT + ":" + MINUTE + " " + AM_PM_MARKER;
         firstRangeDate = getDateTime(EET_TIME_ZONE, datePattern, calendar);
         calendar.add(Calendar.HOUR, 1);
         secondRangeDate = getDateTime(EET_TIME_ZONE, datePattern, calendar);
